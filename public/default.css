@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: grey;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: auto;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: grey; */
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: transparent;
+    padding: 10px;
+    height: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .nav-text{
+    color: black;
+  }
+
+  .svg-background {
+    background-image: url(assets/19689.svg);
+    height: 1000px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .nav-item:hover {
+    color: grey;
+  }
+  
+
