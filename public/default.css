@@ -3,17 +3,18 @@
   }
   
   body {
-    background-color: grey;
-    padding: 20px;
+    background-color: black;
+    /*padding: 20px;*/
     font-family: Arial;
   }
   
   /* Center website */
   .main {
     max-width: auto;
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
-    /* background-color: grey; */
+     /*background-color: black; */
+    /*background-image: url(/public/assets/mountains.jpeg);*/
   }
   
   h1 {
@@ -79,5 +80,10 @@
   .nav-item:hover {
     color: grey;
   }
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
   
 

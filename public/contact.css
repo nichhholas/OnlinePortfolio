@@ -1,0 +1,17 @@
+.cropped {
+    width: auto; /* width of container */
+    height: 50%; /* height of container */
+    overflow: hidden;
+}
+
+.cropped img {
+    margin: -30% 0px 0px 0px;
+}
+
+.link {
+	margin: 0 50px;
+}
+
+.link:hover{
+	cursor:pointer;
+}
